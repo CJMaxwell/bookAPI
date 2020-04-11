@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const Book = require('./models/bookModel');
+const Book = require('./models/Book');
 const bookRouter = require('./Routes/bookRouter')(Book);
 
 const app = express();
